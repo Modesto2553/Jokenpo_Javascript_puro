@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pedra, papel e Tesoura</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+<center>
+	<h1 id="text">A vez do jogador 1</h1>
+	<div id="res4">jogador 1</div>
+	<div id="res5">jogador 2</div>
+	<div id="res6">resultado</div>
+	<p></p>
+	<div onclick="pedra()" id="res1"><img src="Pedra.jpg" id="img1"></div>
+    <div onclick="papel()" id="res2"><img src="papel.jpg" id="img2"></div>
+    <div onclick="tesoura()" id="res3"><img src="tesoura.jpg" id="img3"></div>
+    <p><button onclick="jogar()">Jogar</button> <button onclick="retornar()" style="height: 40px; top: -3px; position: relative;">Jogar de novo</button></p>
+    <p>Código: <a href="codigo.txt"><button type="button">HTML</button></a>
+	<a href="estilo.css"><button type="button">CSS</button></a>
+	<a href="script.js"><button type="button">Javascript</button></a>
+	</p>
+</center>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+body{
+	background-color: Black;
+	color: White;
+}
+
+div{
+	height: 400px;
+	width: 400px;
+	padding: 4px;
+	display: inline-block;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	font: normal 48pt Arial;
+}
+
+img{
+	height: 400px;
+	width: 400px;
+}
+
+div#historico1{	height: 20px;
+}
+
+div#historico2{	height: 20px;
+}
+div#historico3{	height: 20px;
+}
+
+div#res4{
+	width: 400px;
+	font: normal 12pt Arial;
+	height: 30px;
+	color: black;
+}
+
+div#res5{
+	width: 400px;
+	font: normal 12pt Arial;
+	height: 30px;
+	color: black;
+}
+
+div#res6{
+	width: 400px;
+	font: normal 12pt Arial;
+	height: 30px;
+	color: black;
+}
+
+button {
+	width: 65px;
+	height: 30px;
+	font-family: 'Gaegu', cursive;
+    font-size: 12px;
+	border: 2px solid #333333;
+    border-radius: 15px;
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+button:hover {
+	background-color: #333333;
+	border: 2px solid #000;
+	color: white;
+	transition: all 0.5s ease-in;
+	transition-delay: 0.05s;
+}
+
+button:active{
+	background-color: Red;
+	transition: all 0.01s ease-in;
+	transition-delay: 0.01s;
+}
